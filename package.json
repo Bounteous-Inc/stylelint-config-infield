@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Infield Digital",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/infielddigital/stylelint-config-standard",
+  "homepage": "https://github.com/infielddigital/stylelint-config-standard.git",
   "contributors": [
     {
       "name": "Lala Hulse"
