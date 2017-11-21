@@ -41,7 +41,7 @@ module.exports = {
       message: "Remove duplicate properties within this block."
     } ],
     "declaration-block-no-shorthand-property-overrides": [ true, {
-      message: "This shorthand property is overriding a related longhand property in the same block."
+      message: "Shorthand property is overriding a related longhand property in the same block."
     } ],
     "font-family-no-duplicate-names": [ true, {
       message: "Remove duplicate font-family name."
@@ -109,6 +109,9 @@ module.exports = {
     }],
     "no-unknown-animations": [ true, {
       message: "Change to a known animation name, unknown animations aren't allowed."
+    }],
+    "order/properties-alphabetical-order": [true, {
+      message: "Properties should be in alphabetical order."
     }],
     "property-case": ['lower', {
       message: "Names should be lowercase"
