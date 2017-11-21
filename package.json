@@ -1,0 +1,28 @@
+{
+  "name": "stylelint-config-infield",
+  "version": "0.1.0",
+  "description": "Stylelint configuration following Infield Digital's CSS Coding Guidelines",
+  "main": "index.js",
+  "author": "Infield Digital",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/infielddigital/stylelint-config-infield",
+  "contributors": [
+    {
+      "name": "Lala Hulse"
+    }
+  ],
+  "keywords": [
+    "stylelint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infielddigital/stylelint-config-infield.git"
+  },
+  "dependencies": {
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "devDependencies": {
+    "stylelint": "^8.2.0"
+  }
+}
