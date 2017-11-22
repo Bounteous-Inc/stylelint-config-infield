@@ -10,7 +10,7 @@ module.exports = {
       message: "Names should be lowercase."
     } ],
     "at-rule-name-space-after": ['always', {
-      message: "Add a space after @ rule"
+      message: "Add a space after @ rule."
     } ],
     "block-no-empty": [ true, {
       message: "Remove empty block."
@@ -25,10 +25,10 @@ module.exports = {
       message: "Hex values should be lowercase."
     } ],
     "color-hex-length": ['long', {
-      message: "Use a long hex value or replace with rbga or a variable"
+      message: "Use a long hex value or replace with rbga or a variable."
     } ],
     "color-named": ['never', {
-      message: "Replace named color with hex, rbga or variable value"
+      message: "Replace named color with hex, rbga or variable value."
     } ],
     "color-no-invalid-hex": [ true, {
       message: "Replace with a valid hex value."
@@ -68,7 +68,7 @@ module.exports = {
       message: "Remove !important declaration in keyframe declaration. Using !important within keyframes declarations is completely ignored in some browsers."
     }],
     "max-empty-lines": [2, {
-      message: "No more than two empty lines permitted"
+      message: "No more than two empty lines permitted."
     }],
     "max-nesting-depth": [4, {
       ignore: ["blockless-at-rules"],
@@ -102,7 +102,7 @@ module.exports = {
       message: "No empty sources. Source containing only whitespace is considered empty."
     }],
     "no-extra-semicolons": [ true, {
-      message: "Remove extra semicolon"
+      message: "Remove extra semicolon."
     }],
     "no-invalid-double-slash-comments": [ true, {
       message: "Revise this invalid double-slash comment format."
@@ -114,11 +114,14 @@ module.exports = {
       message: "Properties should be in alphabetical order."
     }],
     "property-case": ['lower', {
-      message: "Names should be lowercase"
+      message: "Names should be lowercase."
     } ],
     "property-no-unknown": [ true, {
       message: "Revise this unknown property."
     }],
+    "selector-pseudo-element-colon-notation", [ "double",
+      message: "Use double colon notation for pseudo-elements."
+    ]
     "selector-pseudo-class-no-unknown": [ true, {
       message: "Revise this unknown psuedo class."
     }],
@@ -143,7 +146,7 @@ module.exports = {
     }],
     "unit-whitelist": ["em", "rem", "%", "s", "px", "deg"],
     "value-no-vendor-prefix": [ true, {
-      message: "Remove vendor prefixes"
+      message: "Remove vendor prefixes."
     }]
   }
 }
