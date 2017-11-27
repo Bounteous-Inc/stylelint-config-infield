@@ -1,6 +1,10 @@
 {
   "name": "stylelint-config-infield",
+<<<<<<< HEAD
   "version": "0.3.1",
+=======
+  "version": "0.4.0",
+>>>>>>> 322fe32d463c3015a1a0bb8eeb7e60f070a2810a
   "description": "Stylelint configuration following Infield Digital's CSS Coding Guidelines",
   "main": "index.js",
   "author": "Infield Digital",
