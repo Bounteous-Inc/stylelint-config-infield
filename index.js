@@ -147,8 +147,5 @@ module.exports = {
     "value-no-vendor-prefix": [true, {
       message: "Remove vendor prefixes."
     }],
-    "no-param-reassign": [2, {
-      "props": false,
-    }],
   },
 };
