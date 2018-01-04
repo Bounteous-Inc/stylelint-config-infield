@@ -4,28 +4,28 @@ module.exports = {
     "stylelint-scss",
   ],
   "rules": {
-    "at-rule-name-case": ['lower', {
+    "at-rule-name-case": ["lower", {
       message: "Names should be lowercase."
     }],
-    "at-rule-name-space-after": ['always', {
+    "at-rule-name-space-after": ["always", {
       message: "Add a space after @ rule."
     }],
     "block-no-empty": [true, {
       message: "Remove empty block."
     }],
-    "block-opening-brace-newline-after": ['always', {
+    "block-opening-brace-newline-after": ["always", {
       message: "No single line blocks"
     }],
-    "declaration-colon-space-after": ['always', {
+    "declaration-colon-space-after": ["always", {
       message: "Add a space after a colon."
     }],
-    "color-hex-case": ['lower', {
+    "color-hex-case": ["lower", {
       message: "Hex values should be lowercase."
     }],
-    "color-hex-length": ['long', {
+    "color-hex-length": ["long", {
       message: "Use a long hex value or replace with rbga or a variable."
     }],
-    "color-named": ['never', {
+    "color-named": ["never", {
       message: "Replace named color with hex, rbga or variable value."
     }],
     "color-no-invalid-hex": [true, {
@@ -50,13 +50,13 @@ module.exports = {
     "function-calc-no-unspaced-operator": [true, {
       message: "Add a space before and after the operator in a calc() function."
     }],
-    "function-comma-space-after": ['always', {
+    "function-comma-space-after": ["always", {
       message: "Add a space after the comma."
     }],
     "function-linear-gradient-no-nonstandard-direction": [true, {
       message: "Replace gradient direction with standard gradient direction."
     }],
-    "function-url-quotes": ['always', {
+    "function-url-quotes": ["always", {
       message: "Add quotes around url"
     }],
     "indentation": [2, {
@@ -72,22 +72,22 @@ module.exports = {
       ignore: ["blockless-at-rules"],
       message: "Don't nest more than four rules deep (three rules below the component class)."
     }],
-    "media-feature-colon-space-after": ['always', {
+    "media-feature-colon-space-after": ["always", {
       message: "Space needed after a colon."
     }],
-    "media-feature-name-case": ['lower', {
+    "media-feature-name-case": ["lower", {
       message: "Names should be lowercase."
     }],
     "media-feature-name-no-unknown": [true, {
       message: "This media name is unknown, change to a known name."
     }],
-    "media-feature-parentheses-space-inside": ['never', {
+    "media-feature-parentheses-space-inside": ["never", {
       message: "Remove the space inside the parentheses."
     }],
-    "media-feature-range-operator-space-after": ['always', {
+    "media-feature-range-operator-space-after": ["always", {
       message: "Add a space after this range operator, thank you."
     }],
-    "media-feature-range-operator-space-before": ['always', {
+    "media-feature-range-operator-space-before": ["always", {
       message: "Add a space before this range operator."
     }],
     "no-descending-specificity": [true, {
@@ -111,16 +111,15 @@ module.exports = {
     "order/properties-alphabetical-order": [true, {
       message: "Properties should be in alphabetical order."
     }],
-    "property-case": ['lower', {
+    "property-case": ["lower", {
       message: "Names should be lowercase."
     }],
     "property-no-unknown": [true, {
       message: "Revise this unknown property."
     }],
-    "selector-pseudo-element-colon-notation",
-    ["double",
+    "selector-pseudo-element-colon-notation": ["double", {
       message: "Use double colon notation for pseudo-elements."
-    ]
+    }],
     "selector-pseudo-class-no-unknown": [true, {
       message: "Revise this unknown psuedo class."
     }],
@@ -133,7 +132,7 @@ module.exports = {
     "string-no-newline": [true, {
       message: "Remove the unescaped newline character in this string."
     }],
-    "scss/at-function-parentheses-space-before": ['always', {
+    "scss/at-function-parentheses-space-before": ["always", {
       message: "Add space before parentheses."
     }],
     "at-rule-no-unknown": null,
@@ -146,9 +145,6 @@ module.exports = {
     "unit-whitelist": ["em", "rem", "%", "s", "px", "deg"],
     "value-no-vendor-prefix": [true, {
       message: "Remove vendor prefixes."
-    }],
-    "no-param-reassign": [2, {
-      "props": false,
     }],
   },
 };
