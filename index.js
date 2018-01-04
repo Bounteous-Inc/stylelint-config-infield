@@ -117,10 +117,9 @@ module.exports = {
     "property-no-unknown": [true, {
       message: "Revise this unknown property."
     }],
-    "selector-pseudo-element-colon-notation",
-    ["double",
+    "selector-pseudo-element-colon-notation": ["double", {
       message: "Use double colon notation for pseudo-elements."
-    ]
+    }],
     "selector-pseudo-class-no-unknown": [true, {
       message: "Revise this unknown psuedo class."
     }],
